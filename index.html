@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="nature1.webp" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="box">
+        <!-- Filter Buttons -->
+        <div class="buttons">
+            <button class="active" data-category="all">Show all</button>
+            <button data-category="phones" class="">Phones</button>
+            <button data-category="animals" class="">Animals</button>
+            <button data-category="clothes" class="">Clothes</button>
+            <button data-category="shoes" class="">Shoes</button>
+            <button data-category="nature" class="">Nature</button>
+        </div>
+    </div>
+    <!-- Image cards -->
+    <div class="filterable-cards">
+        <div class="card" data-category="phones">
+            <img src="phone-1.jpg" alt="phone">
+            <div class="card-body">
+                <h6 class="card-title">Phone</h6>
+                <p class="card-text">Best Budget Phone </p>
+            </div>
+        </div>
+
+        <div class="card" data-category="phones">
+            <img src="phone-2.jpg" alt="phone">
+            <div class="card-body">
+                <h6 class="card-title">Phone</h6>
+                <p class="card-text">Best Budget Phone </p>
+            </div>
+        </div>
+        <div class="card" data-category="animals">
+            <img src="animal1.webp" alt="animal">
+            <div class="card-body">
+                <h6 class="card-title">Tiger</h6>
+                <p class="card-text">Fearless Animal in Forest</p>
+            </div>
+        </div>
+        <div class="card" data-category="animals">
+            <img src="animal2.jpg" alt="animal">
+            <div class="card-body">
+                <h6 class="card-title">Zebra</h6>
+                <p class="card-text">Fearless Animal in Forest</p>
+            </div>
+        </div>
+        <div class="card" data-category="animals">
+            <img src="animal3.jpg" alt="animal">
+            <div class="card-body">
+                <h6 class="card-title">Chimpanzee</h6>
+                <p class="card-text">Fearless Animal in Forest</p>
+            </div>
+        </div>
+        <div class="card" data-category="animals">
+            <img src="animal4.jpeg" alt="animal">
+            <div class="card-body">
+                <h6 class="card-title">Lion</h6>
+                <p class="card-text">Fearless Animal in Forest</p>
+            </div>
+        </div>
+        <div class="card" data-category="animals">
+            <img src="animal5.jpeg" alt="animal">
+            <div class="card-body">
+                <h6 class="card-title">Cat</h6>
+                <p class="card-text">Fearless Animal in Forest</p>
+            </div>
+        </div>
+        <div class="card" data-category="animals">
+            <img src="animal6.jpeg" alt="animal">
+            <div class="card-body">
+                <h6 class="card-title">Panda</h6>
+                <p class="card-text">Fearless Animal in Forest</p>
+            </div>
+        </div>
+        <div class="card" data-category="animals">
+            <img src="animal7.jpg" alt="animal">
+            <div class="card-body">
+                <h6 class="card-title">Dog</h6>
+                <p class="card-text">Fearless Animal in Forest</p>
+            </div>
+        </div>
+        <div class="card" data-category="phones">
+            <img src="phone3.jpeg" alt="phone">
+            <div class="card-body">
+                <h6 class="card-title">Phone</h6>
+                <p class="card-text">Best Budget Phone </p>
+            </div>
+        </div>
+
+        <div class="card" data-category="phones">
+            <img src="phone4.jpg" alt="phone">
+            <div class="card-body">
+                <h6 class="card-title">Phone</h6>
+                <p class="card-text">Best Budget Phone </p>
+            </div>
+        </div>
+
+        <div class="card" data-category="phones">
+            <img src="phone5.jpeg" alt="phone">
+            <div class="card-body">
+                <h6 class="card-title">Phone</h6>
+                <p class="card-text">Best Budget Phone </p>
+            </div>
+        </div>
+
+        <div class="card" data-category="phones">
+            <img src="phone6.webp" alt="phone">
+            <div class="card-body">
+                <h6 class="card-title">Phone</h6>
+                <p class="card-text">Best Budget Phone </p>
+            </div>
+        </div>
+
+        <div class="card" data-category="clothes">
+            <img src="cloth4.avif" alt="clothes">
+            <div class="card-body">
+                <h6 class="card-title">Cloth</h6>
+                <p class="card-text">Easy to Wear and Wash</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="clothes">
+            <img src="cloth5.webp" alt="clothes">
+            <div class="card-body">
+                <h6 class="card-title">Cloth</h6>
+                <p class="card-text">Easy to Wear and Wash</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="clothes">
+            <img src="cloth6.jpeg" alt="clothes">
+            <div class="card-body">
+                <h6 class="card-title">Cloth</h6>
+                <p class="card-text">Easy to Wear and Wash</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="clothes">
+            <img src="cloth7.jpeg" alt="clothes">
+            <div class="card-body">
+                <h6 class="card-title">Cloth</h6>
+                <p class="card-text">Easy to Wear and Wash</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="clothes">
+            <img src="cloth8.jpg" alt="clothes">
+            <div class="card-body">
+                <h6 class="card-title">Cloth</h6>
+                <p class="card-text">Easy to Wear and Wash</p>
+            </div>
+        </div>
+        <div class="card" data-category="phones">
+            <img src="phone7.webp" alt="phone">
+            <div class="card-body">
+                <h6 class="card-title">Phone</h6>
+                <p class="card-text">Best Budget Phone </p>
+            </div>
+        </div>
+
+        <div class="card" data-category="phones">
+            <img src="phone8.webp" alt="phone">
+            <div class="card-body">
+                <h6 class="card-title">Phone</h6>
+                <p class="card-text">Best Budget Phone </p>
+            </div>
+        </div>
+
+        <div class="card" data-category="shoes">
+            <img src="shoe3.jpg" alt="shoe">
+            <div class="card-body">
+                <h6 class="card-title">Shoe</h6>
+                <p class="card-text">Best Shoe with grip</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="shoes">
+            <img src="shoe4.jpg" alt="shoe">
+            <div class="card-body">
+                <h6 class="card-title">Shoe</h6>
+                <p class="card-text">Best Shoe with grip</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="shoes">
+            <img src="shoe5.jpeg" alt="shoe">
+            <div class="card-body">
+                <h6 class="card-title">Shoe</h6>
+                <p class="card-text">Best Shoe with grip</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="shoes">
+            <img src="shoe6.jpeg" alt="shoe">
+            <div class="card-body">
+                <h6 class="card-title">Shoe</h6>
+                <p class="card-text">Best Shoe with grip</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="shoes">
+            <img src="shoe7.webp" alt="shoe">
+            <div class="card-body">
+                <h6 class="card-title">Shoe</h6>
+                <p class="card-text">Best Shoe with grip</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="nature">
+            <img src="nature1.webp" alt="nature">
+            <div class="card-body">
+                <h6 class="card-title">Nature</h6>
+                <p class="card-text">Nature wants Stability</p>
+            </div>
+        </div>
+        <div class="card" data-category="shoes">
+            <img src="shoe8.jpg" alt="shoe">
+            <div class="card-body">
+                <h6 class="card-title">Shoe</h6>
+                <p class="card-text">Best Shoe with grip</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="nature">
+            <img src="nature2.jpg" alt="nature">
+            <div class="card-body">
+                <h6 class="card-title">Nature</h6>
+                <p class="card-text">Nature wants Stability</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="nature">
+            <img src="nature3.jpg" alt="nature">
+            <div class="card-body">
+                <h6 class="card-title">Nature</h6>
+                <p class="card-text">Nature wants Stability</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="nature">
+            <img src="nature4.jpg" alt="nature">
+            <div class="card-body">
+                <h6 class="card-title">Nature</h6>
+                <p class="card-text">Nature wants Stability</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="nature">
+            <img src="nature5.avif" alt="nature">
+            <div class="card-body">
+                <h6 class="card-title">Nature</h6>
+                <p class="card-text">Nature wants Stability</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="nature">
+            <img src="nature6.jpg" alt="nature">
+            <div class="card-body">
+                <h6 class="card-title">Nature</h6>
+                <p class="card-text">Nature wants Stability</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="nature">
+            <img src="nature7.jpeg" alt="nature">
+            <div class="card-body">
+                <h6 class="card-title">Nature</h6>
+                <p class="card-text">Nature wants Stability</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="nature">
+            <img src="nature8.jpg" alt="nature">
+            <div class="card-body">
+                <h6 class="card-title">Nature</h6>
+                <p class="card-text">Nature wants Stability</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="animals">
+            <img src="animal8.jpg" alt="animal">
+            <div class="card-body">
+                <h6 class="card-title">Frog</h6>
+                <p class="card-text">Fearless Animal in Forest</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="clothes">
+            <img src="cloth-1.jpg" alt="clothes">
+            <div class="card-body">
+                <h6 class="card-title">Cloth</h6>
+                <p class="card-text">Easy to Wear and Wash</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="clothes">
+            <img src="cloth-2.jpg" alt="clothes">
+            <div class="card-body">
+                <h6 class="card-title">Cloth</h6>
+                <p class="card-text">Easy to Wear and Wash</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="clothes">
+            <img src="cloth-3.jpg" alt="clothes">
+            <div class="card-body">
+                <h6 class="card-title">Cloth</h6>
+                <p class="card-text">Easy to Wear and Wash</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="shoes">
+            <img src="shoe-1.jpg" alt="shoe">
+            <div class="card-body">
+                <h6 class="card-title">Shoe</h6>
+                <p class="card-text">Best Shoe with grip</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="shoes">
+            <img src="shoe-2.jpg" alt="shoe">
+            <div class="card-body">
+                <h6 class="card-title">Shoe</h6>
+                <p class="card-text">Best Shoe with grip</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
